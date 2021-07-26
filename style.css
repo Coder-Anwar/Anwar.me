@@ -186,9 +186,6 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
-.work_showcase .design img:hover{
-    border: 5px solid #fff;
-}
 footer {
     color: cornsilk;
 }
