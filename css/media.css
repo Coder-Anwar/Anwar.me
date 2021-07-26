@@ -111,9 +111,11 @@
     padding:0;
 }
 
-    #container {
+    #container, #container_fluid, main {
         width: 100%;
         overflow: auto;
+        padding:0;
+        margin:0;
     }
 
     header {
