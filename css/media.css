@@ -1,0 +1,215 @@
+@media only screen and (min-width:1224px) and (max-width:1824px){
+    #container_fluid{
+        width:80%;
+        margin: auto;
+    }
+   nav{
+       width: 80%;
+       margin:auto;
+   }
+   main{
+       padding:-0;
+   }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+*{
+    margin:0;
+    padding:0;
+}
+
+    #container {
+        width: 100%;
+        overflow: auto;
+    }
+
+    header {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+        overflow: auto;
+    }
+
+    .about_me {
+        height: 14%;
+
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .my_ditails,
+    .experience {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .my_ditails {
+        background: #ffffff93;
+        padding: 50px 20px;
+    }
+
+    .experience {
+        width:100%;
+        background: #00000056;
+        padding: 50px 0px;
+    }
+
+
+   #work{
+        width:100% !important;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 150%;
+        background:#ffffffa6;
+        padding:0;
+        padding-top: 50px;
+        
+    }
+   #work .work_showcase{
+        background-color: #fefefe;
+        width: 100%;
+        display: flex;
+       flex-direction: column;
+       padding:0;
+    }
+    #work .work_showcase .design {
+        width: 95%;
+        padding: 0px;
+       
+      
+    }
+    #work .work_showcase .design img {
+        width: 100%;
+        height: 400px;
+      
+       padding-top: 30px;
+        
+    }
+    #work p{
+        padding:0px 25px;
+    }
+    .last img{
+        padding-bottom: 30px;
+    }
+    #holder {
+       left:0;
+    }
+
+}
+
+@media only screen and (min-width:375px) and (max-width:767px) {
+*{
+    margin:0;
+    padding:0;
+}
+
+    #container {
+        width: 100%;
+        overflow: auto;
+    }
+
+    header {
+        display: none;
+    }
+
+    main {
+        width: 100%;
+        overflow: auto;
+    }
+
+    .about_me {
+        height: 14%;
+
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        width: 100%;
+      
+    }
+
+    .my_ditails,
+    .experience {
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+
+    .my_ditails {
+        background: #ffffff44;
+        padding: 50px 20px;
+    }
+
+    .experience {
+        width:100%;
+        background: #e0e0e073;
+        padding: 50px 0px;
+      
+    }
+
+
+   #work{
+        width:100% !important;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 150%;
+        background:#ffffffa6;
+        padding:0;
+        padding-top: 50px;
+        
+    }
+   #work .work_showcase{
+        background-color: #fefefe;
+        width: 100%;
+        display: flex;
+       flex-direction: column;
+       padding:0;
+    }
+    #work .work_showcase .design {
+        width: 100%;
+        padding: 0px;
+       
+      
+    }
+    #work .work_showcase .design img {
+        width: 100%;
+        height: 300px;
+       padding-left: 25px;
+       padding-top: 30px;
+        
+    }
+    #work p{
+        padding:0px 25px;
+    }
+    .last img{
+        padding-bottom: 30px;
+    }
+    #holder {
+       left:0;
+    }
+
+
+    img, svg {
+        vertical-align: middle;
+        margin-left: -24px;
+    }
+
+
+
+
+
+
+}
+
+
+
