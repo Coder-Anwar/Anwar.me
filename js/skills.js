@@ -31,7 +31,7 @@ $( document ).ready( function() {
         width: 480,
         height: 480,
         margin:'auto',
-        left:0,
+        left:5,
         radius: '60%',
         radiusMin: 75,
         bgDraw: true,

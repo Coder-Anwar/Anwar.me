@@ -13,21 +13,30 @@ body{
         background: rgba(167, 157, 157, 0.534);
         background-attachment: fixed;
     }
+
+    .nav_background{
+        background: rgb(142, 182, 197);
+        border-bottom: 5px Solid black;
+    }
+
     .navbar{
-        background: gray;
-        border-bottom: 5px Solid #ffff;
+        background: rgb(142, 182, 197);
+        
         position:sticky;
         top: 0px;;
         display: block;
+        width:95%;
     }
-    #container_fluid{
-       background: rgba(39, 37, 37, 0.527);
+    #container_fluid {
+        width: 95%;
+        margin: auto;
+   
        /*  display: flex;
         justify-content: space-between; */
     }
     
 #container{
-    width: 95%;
+    width: 100%;
     margin: auto;
     display: flex;
 }
@@ -60,7 +69,7 @@ main{
     padding: 50px 0px;
     background: #add8e66c;
 }
-h1 > span{
+h1 > span, .underline{
     border-bottom: 5px solid tomato;
 padding: 0px 10px;
 }
